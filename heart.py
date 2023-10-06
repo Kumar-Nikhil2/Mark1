@@ -1,5 +1,6 @@
 import turtle
 pen = turtle.Turtle()
+pen.speed(0)
 
 def curve():
 	for i in range(200):
@@ -17,3 +18,4 @@ pen.forward(112)
 pen.end_fill()
 
 pen.ht()
+turtle.done()
